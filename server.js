@@ -1,4 +1,4 @@
-// server.js (Copia y pega todo esto)
+// server.js (AHORA SÍ, VERSIÓN FINAL)
 
 const jsonServer = require('json-server');
 const path = require('path');
@@ -8,11 +8,11 @@ const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'fixtures/db.json'));
 const middlewares = jsonServer.defaults();
 
-// 👇 2. AÑADE ESTA CONFIGURACIÓN DE CORS
-//    (Permite tu app de Firebase y tu app local)
+// 👇 2. AQUÍ ESTÁ EL CAMBIO
 const allowedOrigins = [
-  'https://f1ntrack-page.web.app',
-  'http://localhost:5174'
+  'https://f1ntrack-page.web.app',     // La URL antigua
+  'http://localhost:5174',             // Tu localhost
+  'https://f1ntracktry.web.app'        // <-- ¡TU NUEVA URL!
 ];
 
 server.use(cors({
