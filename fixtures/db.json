@@ -1,0 +1,450 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Dexter",
+      "email": "dexter@example.com",
+      "password": "123456",
+      "premium": true
+    },
+    {
+      "id": "2",
+      "nombre": "Fabri",
+      "email": "fabri@gmail.com",
+      "password": "123",
+      "premium": false
+    },
+    {
+      "id": "3",
+      "nombre": "Raul Hiroshi",
+      "email": "raultasayco@gmail.com",
+      "password": "admin123",
+      "premium": false
+    },
+    {
+      "id": "4",
+      "nombre": "Lucía",
+      "email": "lucia@gmail.com",
+      "password": "lucia123",
+      "premium": false
+    },
+    {
+      "id": "5",
+      "nombre": "Carlos",
+      "email": "carlos@gmail.com",
+      "password": "carlitos",
+      "premium": true
+    },
+    {
+      "id": "6",
+      "nombre": "Sofía",
+      "email": "sofia@gmail.com",
+      "password": "sofia123",
+      "premium": false
+    },
+    {
+      "id": "7",
+      "nombre": "Martín",
+      "email": "martin@gmail.com",
+      "password": "martinpass",
+      "premium": false
+    },
+    {
+      "id": "8",
+      "nombre": "Andrea",
+      "email": "andrea@gmail.com",
+      "password": "andrea123",
+      "premium": true
+    },
+    {
+      "id": "9",
+      "nombre": "Diego",
+      "email": "diego@gmail.com",
+      "password": "diego123",
+      "premium": false
+    },
+    {
+      "id": "10",
+      "nombre": "Valeria",
+      "email": "valeria@gmail.com",
+      "password": "valeria123",
+      "premium": true
+    }
+  ],
+  "documentos": [
+    {
+      "id": "1",
+      "usuarioId": 1,
+      "tipo": "DNI",
+      "numero": "12345678",
+      "estado": "Verificado"
+    },
+    {
+      "id": "2",
+      "usuarioId": 1,
+      "tipo": "Licencia de Conducir",
+      "numero": "B12345",
+      "estado": "Vencido"
+    },
+    {
+      "id": "3",
+      "usuarioId": 1,
+      "tipo": "CreditCard",
+      "numero": "B12345",
+      "estado": "Vigente"
+    },
+    {
+      "id": "4",
+      "usuarioId": 1,
+      "tipo": "DebitCard",
+      "numero": "A21313",
+      "estado": "Vencido"
+    },
+    {
+      "id": "5",
+      "usuarioId": 1,
+      "tipo": "Metropolitano Card",
+      "numero": "C921441",
+      "estado": "Vigente"
+    },
+    {
+      "id": "6",
+      "usuarioId": 1,
+      "tipo": "Metro de Lima",
+      "numero": "XD12312",
+      "estado": "Vencido"
+    },
+    {
+      "id": "7",
+      "usuarioId": 1,
+      "tipo": "Metro de Lima",
+      "numero": "XD12312",
+      "estado": "Vencido"
+    },
+    {
+      "id": "8",
+      "usuarioId": 1,
+      "tipo": "Seguro de Salud",
+      "numero": "ESS123456",
+      "estado": "Vigente"
+    },
+    {
+      "id": "9",
+      "usuarioId": 1,
+      "tipo": "RUC",
+      "numero": "20145698745",
+      "estado": "Vigente"
+    },
+    {
+      "id": "10",
+      "usuarioId": 1,
+      "tipo": "Carnet Universitario",
+      "numero": "U2025123",
+      "estado": "Vigente"
+    }
+  ],
+  "pagos": [
+    {
+      "id": "1",
+      "usuarioId": 1,
+      "servicio": "Recarga Móvil",
+      "monto": 10,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "2",
+      "usuarioId": 1,
+      "servicio": "Metro",
+      "monto": 2,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "3",
+      "usuarioId": 1,
+      "servicio": "Recarga Móvil",
+      "monto": 10,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "4",
+      "usuarioId": 1,
+      "servicio": "Lima Bus",
+      "monto": 3,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "5",
+      "usuarioId": 1,
+      "servicio": "Metropolitano",
+      "monto": 2,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "6",
+      "usuarioId": 1,
+      "servicio": "Metropolitano",
+      "monto": 3.5,
+      "fecha": "2025-10-06"
+    },
+    {
+      "id": "7",
+      "usuarioId": 1,
+      "servicio": "Recarga Móvil",
+      "monto": 15,
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": "8",
+      "usuarioId": 1,
+      "servicio": "Netflix",
+      "monto": 29.9,
+      "fecha": "2025-11-02"
+    },
+    {
+      "id": "9",
+      "usuarioId": 1,
+      "servicio": "Spotify",
+      "monto": 22.9,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": "10",
+      "usuarioId": 1,
+      "servicio": "Gimnasio",
+      "monto": 90,
+      "fecha": "2025-10-25"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id": "1",
+      "usuarioId": 1,
+      "mensaje": "Tu licencia vence pronto",
+      "leido": true
+    },
+    {
+      "id": "2",
+      "usuarioId": 1,
+      "mensaje": "Nuevo mensaje de soporte disponible",
+      "leido": true
+    },
+    {
+      "id": "3",
+      "usuarioId": 1,
+      "mensaje": "Recordatorio: Tarea pendiente en el proyecto ABC",
+      "leido": true
+    },
+    {
+      "id": "4",
+      "usuarioId": 1,
+      "mensaje": "Actualización de seguridad: Verifica tu contraseña",
+      "leido": true
+    },
+    {
+      "id": "5",
+      "usuarioId": 1,
+      "mensaje": "Bienvenido a la nueva versión de la app",
+      "leido": true
+    },
+    {
+      "id": "6",
+      "usuarioId": 1,
+      "mensaje": "Factura pendiente de pago: Revisar en tu cuenta",
+      "leido": true
+    },
+    {
+      "id": "7",
+      "usuarioId": 1,
+      "mensaje": "Nuevo like en tu publicación del foro",
+      "leido": true
+    },
+    {
+      "id": "8",
+      "usuarioId": 1,
+      "mensaje": "Invitación a colaborar en proyecto XYZ",
+      "leido": false
+    },
+    {
+      "id": "9",
+      "usuarioId": 1,
+      "mensaje": "Reseña de tu producto ha sido aprobada",
+      "leido": false
+    },
+    {
+      "id": "10",
+      "usuarioId": 1,
+      "mensaje": "Oferta especial: 20% descuento en renovación",
+      "leido": false
+    }
+  ],
+  "support": [
+    {
+      "id": "1",
+      "tipo": "Chat en línea",
+      "descripcion": "Atención inmediata con un agente en vivo.",
+      "horario": "Lunes a Domingo, 8:00 a.m. - 10:00 p.m.",
+      "disponible": true
+    },
+    {
+      "id": "2",
+      "tipo": "Correo electrónico",
+      "descripcion": "Envíanos un correo y te responderemos en menos de 24 horas.",
+      "contacto": "soporte@kapaki.com",
+      "disponible": true
+    },
+    {
+      "id": "3",
+      "tipo": "Llamada telefónica",
+      "descripcion": "Comunícate directamente con un especialista.",
+      "contacto": "(01) 456-7890",
+      "horario": "Lunes a Viernes, 9:00 a.m. - 6:00 p.m.",
+      "disponible": true
+    },
+    {
+      "id": "4",
+      "tipo": "Centro de ayuda (FAQ)",
+      "descripcion": "Consulta preguntas frecuentes o busca soluciones rápidas.",
+      "url": "https://kapaki.com/faq",
+      "disponible": true
+    },
+    {
+      "id": "5",
+      "tipo": "Asistente virtual",
+      "descripcion": "Hola Raúl 👋 ¿En qué puedo ayudarte hoy? Puedes preguntarme sobre pagos, transporte o soporte técnico.",
+      "disponible": true
+    },
+    {
+      "id": "6",
+      "tipo": "WhatsApp",
+      "descripcion": "Comunícate por WhatsApp con atención personalizada.",
+      "contacto": "+51 987 654 321",
+      "disponible": true
+    },
+    {
+      "id": "7",
+      "tipo": "Telegram Bot",
+      "descripcion": "Habla con nuestro bot en Telegram para soporte rápido.",
+      "contacto": "@KapakiBot",
+      "disponible": true
+    },
+    {
+      "id": "8",
+      "tipo": "Formulario web",
+      "descripcion": "Completa un formulario para registrar tu incidencia.",
+      "url": "https://kapaki.com/formulario",
+      "disponible": true
+    },
+    {
+      "id": "9",
+      "tipo": "Oficina presencial",
+      "descripcion": "Visítanos en nuestra sede principal en Lima.",
+      "contacto": "Av. Javier Prado 1234, San Isidro",
+      "horario": "Lunes a Viernes, 8:30 a.m. - 5:30 p.m.",
+      "disponible": true
+    },
+    {
+      "id": "10",
+      "tipo": "Twitter/X",
+      "descripcion": "Contáctanos por mensaje directo en nuestra cuenta oficial.",
+      "contacto": "@KapakiOficial",
+      "disponible": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Primer post"
+    },
+    {
+      "id": "2",
+      "title": "Actualización de la app"
+    },
+    {
+      "id": "3",
+      "title": "Nuevos métodos de pago"
+    },
+    {
+      "id": "4",
+      "title": "Cómo verificar tus documentos"
+    },
+    {
+      "id": "5",
+      "title": "Beneficios de ser Premium"
+    },
+    {
+      "id": "6",
+      "title": "Seguridad y privacidad"
+    },
+    {
+      "id": "7",
+      "title": "Guía para principiantes"
+    },
+    {
+      "id": "8",
+      "title": "Errores comunes y soluciones"
+    },
+    {
+      "id": "9",
+      "title": "Tips para ahorrar en transporte"
+    },
+    {
+      "id": "10",
+      "title": "Kapaki: visión futura"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "3",
+      "text": "Muy útil la guía",
+      "postId": "2"
+    },
+    {
+      "id": "4",
+      "text": "Deberían mejorar la interfaz",
+      "postId": "3"
+    },
+    {
+      "id": "5",
+      "text": "Excelente actualización",
+      "postId": "2"
+    },
+    {
+      "id": "6",
+      "text": "No sabía esto, buen dato",
+      "postId": "4"
+    },
+    {
+      "id": "7",
+      "text": "Muy claro todo",
+      "postId": "5"
+    },
+    {
+      "id": "8",
+      "text": "Esperando nuevas funciones",
+      "postId": "6"
+    },
+    {
+      "id": "9",
+      "text": "Me sirvió mucho, gracias",
+      "postId": "8"
+    },
+    {
+      "id": "10",
+      "text": "Buena información",
+      "postId": "9"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
